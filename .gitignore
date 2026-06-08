@@ -1,0 +1,11 @@
+# Raw Codex edge lists are large (100+ MB each); do not commit them.
+# Download them from FlyWire Codex and place in the working directory to reproduce.
+*_edge_list.csv
+banc_*.csv
+fafb_*.csv
+manc_*.csv
+maol_*.csv
+mcns_*.csv
+
+__pycache__/
+*.pyc
