@@ -4,6 +4,16 @@ Largest **connected** directed induced subgraph shared across at least three of 
 
 **Result:** a divergence motif of **N = 1872** neurons (one hub driving 1871 mutually non-adjacent targets), with directed structure **identical across FAFB, MCNS, and MAOL**. The match is verified exactly by the VF2 algorithm. In FAFB the hub is the GABAergic optic-lobe amacrine neuron **CT1**.
 
+## The shared circuit
+
+In FAFB the hub is identified in Codex as **CT1** (root id `720575940628908548`), a single giant wide-field amacrine neuron that tiles the optic lobe. Full biological discussion is in [`science.md`](science.md).
+
+| CT1 3D morphology | CT1 connectivity (Codex) |
+| --- | --- |
+| ![CT1 mesh](figures/ct1_mesh.png) | ![CT1 connectivity](figures/ct1_connectivity.png) |
+
+Left: Codex 3D mesh of CT1 filling the left optic lobe. Right: its connectivity, GABAergic (gold), with heavy lobula input (LO_L) and output to medulla (ME_L) and lobula plate (LOP_L).
+
 ## Repository contents
 
 | File | Description |
